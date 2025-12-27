@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QRandomGenerator>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -18,7 +19,7 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_BttnPlus_clicked();
+    void on_button_Throw_clicked();
 
 private:
     Ui::MainWindow *ui;
